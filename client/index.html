@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Optimized File Upload</title>
+	<style>
+		img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+		}
+	</style>
+</head>
+<body>
+	<h1>Insert your image here!</h1>
+	<input type="file" onchange="UploadImagem(event)" accept="image/*" />
+	<script src="./index.js"></script>
+	<img id="imagem_foto" style="object-fit: cover" />
+	<div style="margin-top: 30px; display: flex; justify-content: center">
+		<canvas id="myCanvas" style="border: 1px solid #000000;"></canvas>
+	</div>		
+</body>
+</html>
